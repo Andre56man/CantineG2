@@ -1,0 +1,278 @@
+/* Personnalisation globale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Personnalisation du header */
+header {
+    background: linear-gradient(90deg, rgba(0, 150, 255, 1) 0%, rgba(0, 100, 255, 1) 100%);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+/* Logo dans le header */
+header .logo {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    left: 20px;
+}
+
+/* Titre du header */
+header h1 {
+    color: white;
+    font-size: 2em;
+    margin: 0;
+    padding-left: 100px; /* Espacement pour compenser le logo */
+}
+
+/* Menu de navigation */
+nav {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px; /* Ajout d'un peu de padding autour des liens */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Style des liens au survol */
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Couleur de survol transparente */
+    transform: scale(1.1); /* Effet de zoom au survol */
+}
+
+/* Container pour les sections */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Conteneur pour les titres de section */
+.container h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Section Commandes et Profil */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    /* background: #f8f9fa;
+    border: 1px solid #ddd; */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    background: #0e0385;
+}
+
+/* Personnalisation des cartes de menu */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-button {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #28a745;
+    /* color: white; */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.card-button:hover {
+    background-color: #218838;
+}
+
+/* Formulaires */
+label {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ff9e56;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+    border-color: #ff7f32;
+    outline: none;
+}
+
+/* Bouton de soumission */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff7f32;
+    /* color: white; */
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff6a13;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Mise en forme de la page de validation */
+ul li {
+    padding: 10px;
+    /* background: #ffffff; */
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Amélioration de la structure du site */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section spécifique à la page de profil */
+.profil-info {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Mise en forme des éléments du profil */
+.profil-info p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profil-info strong {
+    color: #ff7f32;
+}
+
+/* Styles pour le formulaire de connexion et réinitialisation */
+.form-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Limite la largeur du formulaire */
+    margin-top: 30px;
+}
+
+/* Modifier les styles des boutons pour la réinitialisation et connexion */
+button {
+    background-color: #007bff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Section Validation */
+.container h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container p {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+}
