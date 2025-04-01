@@ -1,16 +1,16 @@
 {
     "java.project.sourcePaths": [
-        "Java_project[1]\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2"
+        "Java_project\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2"
     ],
     "java.project.referencedLibraries": [
-        "Java_project[1]\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\mysql-connector-j-8.0.33\\mysql-connector-j-8.0.33.jar",
-        "Java_project[1]\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.base.jar",
-        "Java_project[1]\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.controls.jar",
-        "Java_project[1]\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.fxml.jar",
-        "Java_project[1]\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.graphics.jar",
-        "Java_project[1]\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.media.jar",
-        "Java_project[1]\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.swing.jar",
-        "Java_project[1]\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.web.jar",
-        "Java_project[1]\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx-swt.jar"
+        "Java_project\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\mysql-connector-j-8.0.33\\mysql-connector-j-8.0.33.jar",
+        "Java_project\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.base.jar",
+        "Java_project\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.controls.jar",
+        "Java_project\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.fxml.jar",
+        "Java_project\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.graphics.jar",
+        "Java_project\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.media.jar",
+        "Java_project\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.swing.jar",
+        "Java_project\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx.web.jar",
+        "Java_project\\PROJET_AVEC_JAVA_FX\\G2_JAVA_2\\javafx-sdk-21.0.2\\lib\\javafx-swt.jar"
     ]
 }
